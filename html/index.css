@@ -1,0 +1,86 @@
+.color-0{color: #ffffff;}
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0068;}
+
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+#np-ui {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.np-ui-metrics {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+  height: 250px;
+  border: 2px solid black;
+  -webkit-animation-duration: 2s;
+}
+
+.np-health-armor {
+  position: absolute;
+  left: 30px;
+  bottom: 8px;
+  width: 270px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  background-color: #404040;
+}
+.status-box {
+  border: 1px solid white;
+  margin-right: 8px;
+  overflow: hidden;
+}
+.status-box-primary {
+  flex: 2;
+}
+.status-box-secondary {
+  flex: 1;
+}
+.status-box-inner {
+
+}
+.status-box-inner-health {
+  background-color: green;
+}
+.status-box-armor {
+  background-color: blue;
+}
+.status-box-hunger {
+  background-color: orange;
+}
+.status-box-thirst {
+  background-color: lightblue;
+}
+.status-box-oxygen {
+  background-color: lightblue;
+}
+.status-box-stress {
+  background-color: red;
+}
+.voice-distance {
+  width: 16px;
+}
